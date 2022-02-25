@@ -4,6 +4,7 @@
 }
 /* Navbar styling */
 #navbar{
+    font-family: 'Baloo Bhaijaan 2', cursive;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -19,7 +20,7 @@
     top: 0px;
     left: 0px;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 .logo{
     margin: 4px 5px;
@@ -60,7 +61,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 430px;
+    height: 402px;
 
 }
 .home::before{
@@ -77,22 +78,28 @@
 .home h1{
     font-size: 4rem;
     color: white;
-    text-align: center;
+    text-shadow: 2px 2px black;
+
 }
 .home p{
+    font-family: 'Baloo Bhaijaan 2', cursive;
     color: white;
     font-size: 1.3rem;
     text-align: center;
+    
 }
 /* utility  section  */
 .hprimary{
+    font-family: 'Paytone One', sans-serif;
     text-align: center;
     font-size: 3rem;
     padding: 15px;
 }
 .hsecondary{
+    text-shadow: 1px 1px red;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
 }
 .center{
     text-align: center;
@@ -116,7 +123,8 @@
 .box{
     background-color: rgb(248, 240, 240);
     border: 2px solid red;
-    margin: 4px;
+    margin: 8px;
+    box-shadow: 4px 4px 8px 1px black;
     border-radius: 21px;
     
 }
@@ -131,11 +139,12 @@
 }
 .box p{
     padding: 8px;
+    font-family: 'Exo 2', sans-serif;
 }
 
 /* Client Section */
 #ClientSection{
-height: 250px;
+height: 225px;
 }
 
 #clients{
@@ -152,6 +161,7 @@ height: 250px;
     z-index: -1;
     opacity: 0.4;
     
+    
     }
 #clients img{
     height: 50px;
@@ -161,4 +171,39 @@ height: 250px;
 /* contact Section  */
 #contact{
     position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(../images/contact.webp)no-repeat center center/cover ;
+    z-index: -1;
+    opacity: 0.6;
+}
+.contactBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: ;
+}
+.contactBox input, textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.contactBox form{
+    width: 40%;
+}
+.contactBox label{
+    font-size: 1.3rem;
+
+}
+
+/* footer Section */
+footer{
+    background-color: black;
+    color: white;
+    padding: 3px;
 }
