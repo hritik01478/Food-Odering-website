@@ -41,13 +41,13 @@
 
 .item{
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .item a{
     margin: 4px 4px;
     padding: 4px 8px;
     text-decoration: none;
-    color: aqua;
+    color: white;
 
 }
 .item a:hover{
@@ -177,7 +177,7 @@ height: 225px;
     position: absolute;
     height: 100%;
     width: 100%;
-    background: url(../images/contact.webp)no-repeat center center/cover ;
+    background: url(../images/contact5.webp)no-repeat center center/cover ;
     z-index: -1;
     opacity: 0.6;
 }
@@ -185,19 +185,23 @@ height: 225px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: ;
+    padding-bottom: 34px;
 }
 .contactBox input, textarea{
     width: 100%;
     padding: 0.5rem;
     border-radius: 10px;
     font-size: 1rem;
+    border: 1px solid black;
+    font-family: 'Exo 2', sans-serif;
+    box-shadow: 2px 2px 2px black;
 }
 .contactBox form{
     width: 40%;
 }
 .contactBox label{
     font-size: 1.3rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 
 }
 
